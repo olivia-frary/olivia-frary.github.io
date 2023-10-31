@@ -2,9 +2,13 @@
 output: html_document
 ---
 
+```{r echo=FALSE}
+# NOTES
 # projects/portfolio
 # media folder for pictures
 # page for your resume/cv
+```
+
 
 # Olivia Frary
 Here is my first webpage.
@@ -12,8 +16,11 @@ Here is my first webpage.
 ___
 
 ```{r echo=FALSE}
-knitr::include_graphics("puppy.jpg")
+knitr::include_graphics("media/puppy.jpg")
 ```
+dog
 
+![doggy boiiii](media/puppy.jpg)
 
-![doggy boiiii](puppy.jpg)
+**[RESUME](https://olivia-frary.github.io/resume.pdf)
+
