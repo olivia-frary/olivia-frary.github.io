@@ -1,0 +1,19 @@
+---
+output: html_document
+---
+
+# projects/portfolio
+# media folder for pictures
+# page for your resume/cv
+
+# Olivia Frary
+Here is my first webpage.
+
+___
+
+```{r echo=FALSE}
+knitr::include_graphics("puppy.jpg")
+```
+
+
+![doggy boiiii](puppy.jpg)
