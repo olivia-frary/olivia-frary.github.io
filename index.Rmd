@@ -1,26 +1,16 @@
 ---
-output: html_document
+title: "Olivia Frary"
+author: "Bioinformatics Undergraduate"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: rmdformats::material
 ---
 
-```{r echo=FALSE}
-# NOTES
-# projects/portfolio
-# media folder for pictures
-# page for your resume/cv
-```
+# Introduction
 
+This is a very minimal example! The only thing which is changed in this template is a few of the default settings in the YAML. 
 
-# Olivia Frary
-Here is my first webpage.
+## Customisation
 
-___
+A simple template like this might be useful to include if you have a common structure of report that you want to run. For example, you change the author name your name. You can edit the sections to include a generic layout.
 
-```{r echo=FALSE}
-knitr::include_graphics("media/puppy.jpg")
-```
-dog
-
-![doggy boiiii](media/puppy.jpg)
-
-**[RESUME](https://olivia-frary.github.io/resume.pdf)
-
+# Another Level 1 Header
