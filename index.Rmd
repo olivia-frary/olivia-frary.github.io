@@ -20,8 +20,7 @@ knitr::include_graphics("media/headshot.jpg")
 
 I am pursuing my Bachelors of Science in Bioinformatics at Utah Valley University.
 
-**Click [here](about-me/resume.pdf) to view my resume.**
-
+**Click [here](https://olivia-frary.github.io/about-me/resume.pdf) to view my resume.**
 
 # Projects
 
