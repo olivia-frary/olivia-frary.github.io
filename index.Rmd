@@ -1,16 +1,34 @@
 ---
 title: "Olivia Frary"
 author: "Bioinformatics Undergraduate"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "Expected Graduation Date: Spring 2025"
 output: rmdformats::material
 ---
 
-# Introduction
+<style>
+h1, h2, h3, h4, h5, h6, legend {
+    color: #000000;
+}
+</style>
 
-This is a very minimal example! The only thing which is changed in this template is a few of the default settings in the YAML. 
+# About Me
 
-## Customisation
 
-A simple template like this might be useful to include if you have a common structure of report that you want to run. For example, you change the author name your name. You can edit the sections to include a generic layout.
+```{r pressure, echo=FALSE}
+knitr::include_graphics("media/headshot.jpg")
+```
 
-# Another Level 1 Header
+I am pursuing my Bachelors of Science in Bioinformatics at Utah Valley University.
+
+**Click [here](about-me/resume.pdf) to view my resume.**
+
+
+# Projects
+
+#### **Relationship Between Heteromorphic Sex Chromosomes and Organism Longevity**
+
+This project takes species from across the tree of life and considers predictors affecting 
+their lifespans. It aims to specifically understand the relationship between heteromorphic 
+sex chromosomes, degree of reduction, and longevity.
+
+[Visit project page]()
