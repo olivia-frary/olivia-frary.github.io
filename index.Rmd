@@ -30,4 +30,5 @@ This project takes species from across the tree of life and considers predictors
 their lifespans. It aims to specifically understand the relationship between heteromorphic 
 sex chromosomes, degree of reduction, and longevity.
 
-[Visit project page]()
+[Visit project page](https://olivia-frary.github.io/research_proj_frary/final_project.html)
+
