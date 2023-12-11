@@ -20,9 +20,7 @@ The purpose of this project is to consider the predictors of longevity in organi
 
 ## Background Information
 
-##### Heteromorphic Sex Chromosomes
-
-##### Why is there a reduced sex chromosome?
+The paper *The sex with the reduced sex chromosome dies earlier: a comparison across the tree of life* (Xirocostas et al., 2020) performs a meta-analysis that shows that the homogametic sex (meaning XX-female or ZZ-male) lives longer than the heterogametic sex. This opens up questions on the importance of chromosome morphology. I wanted to look at the data from this paper and supplement it with my own data on the difference in size between the heteromorphic sex chromosomes. The purpose being to determine whether the degree of differentiation correlates with the lifespan differences in species. 
 
 ---
 
@@ -100,7 +98,7 @@ dl %>%
   theme(axis.text.y = element_text(size=7))
 ```
 
-The figure above shows the difference between the lifespan of homogametic and heterogametic sexes of certain species. The x-axis plots ln(homogametic lifespan/heterogametic lifespan) to normalize the results. If the point is greater than zero, the homogametic sex lives longer. If it is less than zero, the heterogametic sex lives longer. The colors are based on whether the species' sex determination system is female or male heterogametic.
+The figure above shows the difference between the lifespan of homogametic and heterogametic sexes of certain species. The x-axis plots *ln(homogametic lifespan/heterogametic lifespan)* to normalize the results. If the point is greater than 0, the homogametic sex lives longer. If it is less than 0, the heterogametic sex lives longer. The colors are based on whether the species' sex determination system is female or male heterogametic.
 
 The following interactive version of this plot allows you to look at the data
 based on class, order, and family by changing the colors of the points. 
@@ -167,7 +165,7 @@ dl %>%
   theme_minimal()
 ```
 
-From our lifespan plots, we can see that the homogametic sex lives longer. However, this is not new information. We want to see if the difference in the size of the sex chromosomes contributes to the degree of difference in longevity. To do that we have to narrow our data again to the observations where genome size data was found.
+From our lifespan plots, we can see that the homogametic sex lives longer. However, this is not new information. We want to see if the degree of difference in the size of the sex chromosomes contributes to the difference in longevity. To do that we have to narrow our data again to the observations where genome size data was found.
 
 #### <i>Initial Plots: Genome Size</i>
 
@@ -346,7 +344,7 @@ My future goals for making multi fastas is to create a super matrix that consist
 
 #### <i> Conduct an alignment </i>
 
-Next, I wanted to learn how to do an alignment and a simple tree. Here is a section of the alignment I performed in R. The is lots of variation since I am using species that are not closely related.
+Next, I wanted to learn how to do an alignment and a simple tree. Here is a section of the alignment I performed in R. There is lots of variation since I am using species that are not closely related.
 
 ![](tree/mult_alignment.png)
 
@@ -426,5 +424,5 @@ p3 + theme_tree2() + geom_vline(xintercept = 0, alpha=0.5, linetype = "dashed")
 
 ### Future Steps
 
-I want to collect more data to see if the lack of correlation is due to a small sample size. I also want to create more robust and accurate trees to perform phylogenetically independent contrasts that will help me to see if phylogentic relationships affect the data. 
+I want to collect more data to see if the lack of correlation is due to a small sample size. I also want to create more robust and accurate trees to perform phylogenetically independent contrasts that will help me to see if phylogenetic relationships affect the data. 
 
