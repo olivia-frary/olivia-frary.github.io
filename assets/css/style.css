@@ -439,8 +439,13 @@ section {
   border-radius: 0;
 }
 
-.skills ul li {
-  list-style-type: circle;
+.skills .progress ul {
+  list-style: square;
+  padding: 0;
+}
+
+.skills .progress ul li {
+  list-style-type: square;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
