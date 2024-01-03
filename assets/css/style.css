@@ -440,7 +440,7 @@ section {
 }
 
 .skills ul li {
-  list-style-type: none;
+  list-style-type: circle;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
